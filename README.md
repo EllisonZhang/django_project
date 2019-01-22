@@ -1,2 +1,1 @@
-# TWD
-Tango with Django
+# django_project
