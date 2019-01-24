@@ -20,6 +20,7 @@ from rango import views
 
 urlpatterns = [ 
     url(r'^$', views.index, name='index'),
+    # url(r'^$', views.about, name='about'),
     url(r'^rango/', include('rango.urls')),
     url(r'^admin/', admin.site.urls),
 ]
