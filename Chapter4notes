@@ -1,0 +1,18 @@
+Using Templates
+    TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
+    'DIRS': [TEMPLATE_DIR, ]
+
+1. we created templates directory 
+2. add the template to project:
+    setings.py -- TEMPLATES[] -- 'DIRS':[add path here]
+    
+3. another way add the template to project:
+    
+4.use：os.path.join(,) to concatenating system paths together
+
+==========================================
+
+Static Media Files:  CSS/JavaScript
+
+
+   
