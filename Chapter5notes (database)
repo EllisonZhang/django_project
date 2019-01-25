@@ -1,0 +1,25 @@
+ORM: object relational mapper. Data stored within a database table can be encapsulated within a model (ORM).
+
+1. create class in models.py:  class represent for the tables in database
+             By default, all models have an auto-increment integer field called id 
+             which is automatically assigned and acts a primary key.
+             
+2. Initialised database (after editing the models.py):
+    python manage.py migrate
+    python manage.py createsuperuser       //Whenever you make changes to your app’s models, you need to register the changes 
+    python manage.by makemigrations "filename"
+    
+  the database data will be then inside the migrations file ---0001_initial.py  
+     python manage.py migrate // do this again to commit it in database
+     
+3.  python manage.py shell //interact with the models
+    quit()
+    
+4. log in /admin/ 
+we can register those tables by adding them in the   rango--admin.py:
+
+from django.contrib import admin
+from rango.models import Category, Page
+
+admin.site.register(Category)
+admin.site.register(Page)
