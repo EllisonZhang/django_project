@@ -1,0 +1,14 @@
+
+object: Connect the model-view-template together to serve dynamic data
+
+model: database
+view: handle the request/ what to display
+template: html(page)
+
+Category.objects.order_by('-likes')[:5]
+
+
+in Django’s template language, all commands are enclosed within the tags {%
+and %}, while variables are referenced within {{ and }} brackets.
+
+space in URL is unsafe
