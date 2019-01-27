@@ -12,3 +12,9 @@ in Django’s template language, all commands are enclosed within the tags {%
 and %}, while variables are referenced within {{ and }} brackets.
 
 space in URL is unsafe
+
+learning materials:
+
+Git:     https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+Python:  https://docs.python.org/3.7/tutorial/
+HTML:    https://www.w3schools.com/html/default.asp      
