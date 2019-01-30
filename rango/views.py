@@ -95,9 +95,6 @@ def add_page(request, category_name_slug):
 
     return render(request, 'rango/add_page.html', context_dict)
 
-    
-
-
 def about(request):
     context_dict = {'boldmessage':"Eat it!"}
     return render(request, 'rango/about.html', context = context_dict)

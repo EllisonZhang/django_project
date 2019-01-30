@@ -1,12 +1,7 @@
+{%extends 'rango/base.html'%}
 {% load staticfiles %} 
 
-<html>
-
-    <head>
-        <title>Rango</title>>
-    </head>>
-
-    <body>
+{%block body_block%}
         <h1>Rango says...</h1>>
         <div>
             This tutorial has been put together by Weikun Zhang
@@ -14,13 +9,7 @@
             <strong>{{ boldmessage }}</strong>><br/>
         </div>>
         <div>
-            <a href="http://127.0.0.1:8000/">index</a></br />
-            <!-- <img src="{% static "images/ChenStormstout.jpg" %}"
-                 alt="Picture of ChenStormstout"/> -->
             <img src="/media/cat.jpg"
                 alt="Picture of Cat"/>
-
         </div>>
-    </body>> 
-
-</html>>          
+{%endblock%}      
