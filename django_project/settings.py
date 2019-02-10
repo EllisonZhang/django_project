@@ -60,6 +60,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'django_project.urls'
 
+LOGIN_URL = '/rango/login/'
 
 TEMPLATES = [
     {

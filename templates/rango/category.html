@@ -19,10 +19,13 @@
         {% endif %}
         </div>>
         <div>
+        {% if user.is_authenticated %}
             {% if category %}
             <a href="{% url 'add_page' category.slug %}">Add Page</a> <br/>
             {%else%}
             The specified category does not exist!	
             {% endif %}
+        {% else %}
+        {% endif %}
         </div>> 
 {% endblock %}
